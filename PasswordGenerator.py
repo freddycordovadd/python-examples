@@ -29,7 +29,7 @@ respuesta = int(input("Escribe tu respuesta: "))
 print("-"*20)
 if respuesta == 0:
     print("Escogiste password Debil de 6 caracteres.")
-elif respuesta == 0:
+elif respuesta == 1:
     print("Escogiste password Media de 9 caracteres.")
 else:
     print("Escogiste password Fuerte de 12 caracteres.")

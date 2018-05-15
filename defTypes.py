@@ -2,6 +2,7 @@
 tipos de metodos def 
 """
 
+
 # probando metodos con python
 
 def Mostrar(numero):
@@ -25,6 +26,7 @@ def Sumatoria(a,b=4,c=8):
     r=a+b+c
     print(r)
 
+
 a=int(input("Dame un numero:"))
 Sumatoria(a)
 
@@ -32,42 +34,44 @@ Sumatoria(a)
 #############################################
 # usando un keyword para pasar los parametros
 
-def muestraValores(a=1,b=2,c=3):
+def muestraValores(a=1, b=2, c=3):
     "Probando metodos con keywords en parametros"
-    print("A es ",a)
-    print("B es ",b)
-    print("C es ",c)
+    print("A es ", a)
+    print("B es ", b)
+    print("C es ", c)
 
 
 # invocacion normal
-muestraValores(4,8,9)
-print("-"*20)
+muestraValores(4, 8, 9)
+print("-" * 20)
 
 # invocacion con keywords
-muestraValores(c=33,a=44,b=88)
-print("-"*20)
+muestraValores(c=33, a=44, b=88)
+print("-" * 20)
 
 # invocamos con keywords y usando parametros opcionales
 muestraValores(b=999)
-print("-"*20)
+print("-" * 20)
 
 
 # numero arbitrario de parametros
 
-def sumatoria(a,*mas):
-    suma=a
-    if len(mas)>0:
+def sumatoria(a, *mas):
+    suma = a
+    if len(mas) > 0:
         for n in mas:
-            suma=suma+n
+            suma = suma + n
     print(suma)
 
+
 sumatoria(1)
-sumatoria(1,2)
-sumatoria(1,2,3)
-sumatoria(1,2,3,4)
-sumatoria(1,2,3,4,5)
+sumatoria(1, 2)
+sumatoria(1, 2, 3)
+sumatoria(1, 2, 3, 4)
+sumatoria(1, 2, 3, 4, 5)
 
 print("-"*20)
+
 
 #uso de return
 
@@ -78,5 +82,6 @@ def Sumatoria(a,*mas):
             suma=suma+n
     return suma
 
-s=Sumatoria(1)
+
+s = Sumatoria(1)
 print(s)

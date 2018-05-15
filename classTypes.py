@@ -5,6 +5,7 @@ Los metodos en python siempre deben ir con self como primer
 parametro para saber q esta siendo referenciado al objeto(clase)
 """
 
+
 class Persona:
     # Esta es la clase Persona
     # No hay constructor explicito, pero usamos __init__
@@ -23,7 +24,6 @@ class Persona:
         print("Hola, yo soy " + self.Nombre)
         
 
- 
 # Creamos una herencia de clase
 
 class Empleado(Persona):

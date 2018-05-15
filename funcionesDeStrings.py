@@ -1,8 +1,7 @@
-
-# Funciones de cadenas de texto 'str'
-# Ingresamos un nombre
-# y le hacemos modificaciones
-
+"""
+Funciones de cadenas de texto 'str' Ingresamos
+un nombre y le hacemos modificaciones
+"""
 nombre = str(input("Ingresa el nombre: "))
 print("-"*20)
 

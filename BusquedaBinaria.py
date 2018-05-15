@@ -1,5 +1,10 @@
 
 # Busqueda binaria
+"""
+Optimiza las busquedas para tablas de grandes volumenes (millones
+de filas) unicamente funciona con data numerica ordenada
+"""
+
 
 def b_binaria(numeros, n_to_find, low, high):
     if low > high:
@@ -21,7 +26,7 @@ n_to_find = int(input("Ingresa un numero: "))
 
 r = b_binaria(numeros, n_to_find, 0, len(numeros) - 1)
 
-if r == True:
+if r:
     print("el numero si existe")
 else:
     print("el numero NO existe")

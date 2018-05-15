@@ -26,7 +26,7 @@ print("-"*10)
 respuesta = int(input("Escribe tu respuesta: "))
 
 
-print("-"*20)
+print("-" * 20)
 if respuesta == 0:
     print("Escogiste password Debil de 6 caracteres.")
 elif respuesta == 1:

@@ -25,7 +25,7 @@ print(numeros.index(16))
 
 # insertar en un indice
 
-numeros.insert(2,25)
+numeros.insert(2, 25)
 print(numeros)
 print("-"*20)
 
